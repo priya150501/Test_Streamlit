@@ -8,7 +8,7 @@ st.title("Welcome To Calculator")
 
 # import module
 import streamlit as st
-status = st.option("Select Operator: ", ('Adddition', 'Subtraction','Multiplication','Division'))
+status = st.options("Select Operator: ", ('Adddition', 'Subtraction','Multiplication','Division'))
 
 # conditional statement to print
 # show the result using the success function
