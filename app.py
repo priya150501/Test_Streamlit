@@ -52,7 +52,7 @@ def cal():
 	else:
 		result = 0
 
-st.success(f"Answer = {ans}")
+st.success(f"Answer = {result}")
   
 if st.button("Calculate result"):
     calculate()
