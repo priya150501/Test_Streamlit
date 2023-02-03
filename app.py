@@ -36,9 +36,10 @@ def cal():
 			result = var_1 / var_2
 	else:
 		result = 0
+	return result
 
   
 if st.button("Calculate result"):
-    cal()
-st.success(f"Answer = {result}")
+    output = cal()
+st.success(f"Answer = {output}")
 
