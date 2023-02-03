@@ -11,8 +11,8 @@ st.title("Welcome To Calculator")
 # save the input text in the variable 'name'
 # first argument shows the title of the text input box
 # second argument displays a default text inside the text input area
-name = st.text_input("Enter First Number", "Type Here ...")
-name = st.text_input("Enter Second Number", "Type Here ...")
+var_1 = st.text_input("Enter First Number", "Type Here ...")
+var_2 = st.text_input("Enter Second Number", "Type Here ...")
 
 
 # radio button
