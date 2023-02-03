@@ -19,7 +19,7 @@ st.write("Operation")
 # radio button
 # first argument is the title of the radio button
 # second argument is the options for the radio button
-operation = st.radio("Select Operator: ", ('Adddition', 'Subtraction','Multiplication','Division'))
+operation = st.radio("Select Operator: ", ('Addition', 'Subtraction','Multiplication','Division'))
 
 
 def cal():
