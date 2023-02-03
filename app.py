@@ -22,13 +22,13 @@ operation = st.radio("Select Operator: ", ('Adddition', 'Subtraction','Multiplic
 
 # conditional statement to print
 # show the result using the success function
-if (status == 'Addition'):
+if (operation == 'Addition'):
 	st.success("Addition")
-elif(status == 'Subtraction'):
+elif(operation == 'Subtraction'):
 	st.success("Subtraction")
-elif(status == 'Multiplication'):
+elif(operation == 'Multiplication'):
 	st.success("Multiplication")
-elif(status == 'Division'):
+elif(operation == 'Division'):
 	st.success("Division")
 # display the name when the submit button is clicked
 # .title() is used to get the input text string
