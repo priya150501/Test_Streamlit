@@ -37,13 +37,13 @@ operation = st.radio("Select Operator: ", ('Adddition', 'Subtraction','Multiplic
 result=0
 
 def cal():
-	if(operation == 'Addition'):
+	if(operation == "Addition"):
 		result = var_1 + var_2
-	elif(operation == 'Subtraction'):
+	elif(operation == "Subtraction"):
 		result = var_1 - var_2
-	elif(operation == 'Multiplication'):
+	elif(operation == "Multiplication"):
 		result = var_1 * var_2
-	elif(operation == 'Division'):
+	elif(operation == "Division"):
 		if(var_1==0 and var_2==0):
 			result = 0
 		else:
