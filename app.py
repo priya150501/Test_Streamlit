@@ -33,7 +33,7 @@ elif(operation == 'Division'):
 # display the name when the submit button is clicked
 # .title() is used to get the input text string
 if(st.button('Submit')):
-	result = name.title()
+	result = operation.title()
 	st.success(result)
 
 
