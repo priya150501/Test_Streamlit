@@ -40,5 +40,6 @@ def cal():
 
   
 if st.button("Calculate result"):
+	print("result-->> ",cal())
 	st.success(f"Answer = {cal()}")
 
