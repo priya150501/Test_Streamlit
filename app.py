@@ -37,9 +37,8 @@ def cal():
 	else:
 		result = 0
 
-	st.success(f"Answer = {result}")
   
 if st.button("Calculate result"):
     cal()
-
+st.success(f"Answer = {result}")
 
