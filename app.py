@@ -18,7 +18,7 @@ name = st.text_input("Enter Second Number", "Type Here ...")
 # radio button
 # first argument is the title of the radio button
 # second argument is the options for the radio button
-status = st.radio("Select Operator: ", ('Adddition', 'Subtraction','Multiplication','Division'))
+operation = st.radio("Select Operator: ", ('Adddition', 'Subtraction','Multiplication','Division'))
 
 # conditional statement to print
 # show the result using the success function
