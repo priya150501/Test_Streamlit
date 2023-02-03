@@ -8,7 +8,11 @@ st.title("Welcome To Calculator")
 
 # import module
 import streamlit as st
-status = st.options("Select Operator: ", ('Adddition', 'Subtraction','Multiplication','Division'))
+
+# radio button
+# first argument is the title of the radio button
+# second argument is the options for the radio button
+status = st.radio("Select Operator: ", ('Adddition', 'Subtraction','Multiplication','Division'))
 
 # conditional statement to print
 # show the result using the success function
