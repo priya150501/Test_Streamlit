@@ -21,20 +21,6 @@ st.write("Operation")
 # second argument is the options for the radio button
 operation = st.radio("Select Operator: ", ('Adddition', 'Subtraction','Multiplication','Division'))
 
-# conditional statement to print
-# show the result using the success function
-# if (operation == 'Addition'):
-# 	st.success("Addition")
-# elif(operation == 'Subtraction'):
-# 	st.success("Subtraction")
-# elif(operation == 'Multiplication'):
-# 	st.success("Multiplication")
-# elif(operation == 'Division'):
-# 	st.success("Division")
-# display the name when the submit button is clicked
-# .title() is used to get the input text string
-
-result=0
 
 def cal():
 	if(operation == "Addition"):
