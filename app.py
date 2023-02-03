@@ -3,20 +3,25 @@
 import streamlit as st
 
 # Title
-st.title("Hello GeeksForGeeks !!!")
+st.title("Welcome To Calculator")
 
-# success
-st.success("Success")
 
-# success
-st.info("Information")
+# import module
+import streamlit as st
 
-# success
-st.warning("Warning")
+# radio button
+# first argument is the title of calculator
+# second argument is the options for the radio button
+status = st.option("Select Operator: ", ('Adddition', 'Subtraction','Multiplication','Division'))
 
-# success
-st.error("Error")
-
-# Exception - This has been added later
-exp = ZeroDivisionError("Trying to divide by Zero")
-st.execption(exp)
+# conditional statement to print
+# Male if male is selected else print female
+# show the result using the success function
+if (status == 'Addition'):
+	st.success("Addition")
+elif(status == 'Subtraction'):
+	st.success("Subtraction")
+elif(status == 'Multiplication'):
+	st.success("Multiplication")
+elif(status == 'Division'):
+	st.success("Division")
