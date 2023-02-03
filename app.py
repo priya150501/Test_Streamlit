@@ -14,6 +14,7 @@ st.title("Welcome To Calculator")
 var_1 = st.text_input("Enter First Number", "Type Here ...")
 var_2 = st.text_input("Enter Second Number", "Type Here ...")
 
+st.write("Operation")
 
 # radio button
 # first argument is the title of the radio button
@@ -33,7 +34,7 @@ operation = st.radio("Select Operator: ", ('Adddition', 'Subtraction','Multiplic
 # display the name when the submit button is clicked
 # .title() is used to get the input text string
 
-
+result=0
 
 def cal():
 	if(operation == 'Addition'):
