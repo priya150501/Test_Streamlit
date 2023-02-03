@@ -55,6 +55,6 @@ def cal():
 	st.success(f"Answer = {result}")
   
 if st.button("Calculate result"):
-    calculate()
+    cal()
 
 
